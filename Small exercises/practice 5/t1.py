@@ -1,0 +1,31 @@
+number1= int(input("enter your number:"))
+op = input("enter operation:")
+number2= int(input("enter your number:"))
+if op == "q":
+    exit()
+while True:
+    if op == "+":
+        number1 = number1 + number2
+        print(number1)
+    if op == "-":
+        number1 = number1 - number2
+        print(number1)
+    if op == "/":
+        number1 = number1 / number2
+        print(number1)
+    if op == "//":
+        number1 = number1 // number2
+        print(number1)
+    if op == "*":
+        number1 = number1 * number2
+        print(number1)
+    if op == "**":
+        number1 = number1 ** number2
+        print(number1)
+    if op == "%":
+        number1 = number1 % number2
+        print(number1)
+    op = input("enter operation:")
+    if op == "q":
+        exit()
+    number2= int(input("enter your number:"))

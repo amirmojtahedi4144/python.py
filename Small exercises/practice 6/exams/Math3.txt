@@ -1,0 +1,4 @@
+name professor = Mr.Amir , subject = Math , date = 1404 , name student = 
+1.1+1?(2 score)
+1)1 2)2 3)3 4)4
+1
